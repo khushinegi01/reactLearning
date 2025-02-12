@@ -11,13 +11,19 @@ Currently, two official plugins are available:
 -----------Here's My Input From the First Lecture---------------12.02.2025
 
 Why to use React ?
--> React was developed for solving the problem of sync that used to occur between the state (that was handled by javascript) and UI ((frontend) that is under the control of DOM).
 
--> React generally render 2 dependencies :
+
+-> React was developed for solving the problem of synchronization that used to occur between the state (that was handled by javascript) and UI ((frontend) that is under the control of DOM).
+
+-> React generally renders 2 dependencies :
+
     React Native - for mobile application 
+
     React Dom - for website
 
--> React Project can be created in 2 ways 
+-> A React Project can be created in 2 ways 
+
     1. npx create-next-app@latest
-    2. using bundler (like Vite or Parcel): npm create vite@latest
- 
+    
+    2. using bundler (like Vite or Parcel): npm create vite@latest (generally more used)
+

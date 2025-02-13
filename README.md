@@ -39,7 +39,23 @@ const customElements = {
     },
     children: ['Click me']
 }
+```
 
+ReactRender follow a specific pattern :
+
+     type,
+
+     key,
+
+     props
+
+therefore the above code will be written as : 
+
+```    'a' ,
+    {href : 'https://www.google.com', 
+    style : 'color: red', target : '_blank'},
+    'Click me'
+```
 
 The reason for the first custom element not working is that React does not understand the custom element and it is not following the pattern of React. It is jsx that is being used in React i.e. javascipt with html. 
 

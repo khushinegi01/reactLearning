@@ -68,3 +68,9 @@ The reason for the first custom element not working is that React does not under
 Just like in javascript, `${variable}` is used to use a variable in a string. 
 
 This is called evaluted expression.Final outcome of the expression is passed in it.
+
+
+## Lecture 3: Understanding Hooks
+
+Hooks are functions that let you use state and other React features without writing a class.
+They handle the UI logic of the component.

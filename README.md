@@ -63,7 +63,7 @@ The reason for the first custom element not working is that React does not under
 -> In React, varialbles can be used in the jsx by using curly braces.
 
    e.g. const name = 'Khushi';
-        <h1>{name}</h1
+        <h1>{name}</h1>
 
 Just like in javascript, `${variable}` is used to use a variable in a string. 
 

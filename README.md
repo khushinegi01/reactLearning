@@ -100,3 +100,34 @@ On clicking the button, the background color changes to a selected color.
 ![image](<Screenshot 2025-02-19 at 10.30.13 AM.png>)
 
 ![image](<Screenshot 2025-02-19 at 10.30.28 AM.png>)
+
+
+## Lecture 4:useCallback, useEffect , useRef  Hooks
+
+
+### useCallback Hook
+
+useCallback hook is used to memoize a function so that it does not get re-rendered every time the component re-renders.
+
+### useEffect Hook
+
+useEffect hook is used to perform side effects in a functional component. It is similar to componentDidMount, componentDidUpdate and componentWillUnmount in class components. 
+
+It takes two arguments:
+1. A function that contains the side effect
+2. An array of dependencies that the function depends on    
+
+### useRef Hook
+
+useRef hook is used to create a mutable object that persists for the lifetime of the component. It is used to access the DOM nodes directly.
+
+## Password generator Project using useCallback , useEffect and useRef Hooks
+
+Created a basic project to generate a random password using useCallback, useEffect and useRef hooks.
+
+The project create the password of the user choice length and features like including numbers and special characters.It can also copy the password to the clipboard.
+
+![password without nums and special characters](<Screenshot 2025-02-19 at 4.58.42 PM.png>)
+
+
+![password with nums ans special character and copird to clipboard](<Screenshot 2025-02-19 at 4.59.19 PM.png>)

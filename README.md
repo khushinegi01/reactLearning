@@ -97,4 +97,6 @@ Created a basic project to change the background color of the page using useStat
 On clicking the button, the background color changes to a selected color.
 
 
-<img src="/Users/khushinegi/Desktop/Screenshot 2025-02-19 at 10.30.13 AM.png" alt="drawing" width="200"/>
+![image](<Screenshot 2025-02-19 at 10.30.00 AM.png>)
+
+![image](<Screenshot 2025-02-19 at 10.30.28 AM.png>)

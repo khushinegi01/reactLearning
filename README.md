@@ -74,3 +74,14 @@ This is called evaluted expression.Final outcome of the expression is passed in 
 
 Hooks are functions that let you use state and other React features without writing a class.
 They handle the UI logic of the component.
+
+We use useState hook to use state in a functional component.
+
+It return an array with two elements:
+1. The current state value
+2. A function that lets you update it
+
+syntax: 
+```
+const [state, setState] = useState(initialState);
+```

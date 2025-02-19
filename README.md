@@ -85,3 +85,16 @@ syntax:
 ```
 const [state, setState] = useState(initialState);
 ```
+
+
+### BgColor Changer Project with Hooks (useState)
+
+Created a basic project to change the background color of the page using useState hook.
+
+![image](<Screenshot 2025-02-19 at 10.29.48 AM.png>)
+
+
+On clicking the button, the background color changes to a selected color.
+
+
+<img src="/Users/khushinegi/Desktop/Screenshot 2025-02-19 at 10.30.13 AM.png" alt="drawing" width="200"/>

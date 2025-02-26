@@ -1,13 +1,5 @@
-# React + Vite
+Started with the basics of React and the importance of React in the development of web applications with chai and code.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
----
 
 ## Input From the First Lecture
 
@@ -121,7 +113,7 @@ It takes two arguments:
 
 useRef hook is used to create a mutable object that persists for the lifetime of the component. It is used to access the DOM nodes directly.
 
-## Password generator Project using useCallback , useEffect and useRef Hooks
+## Password Generator Project using useCallback , useEffect and useRef Hooks
 
 Created a basic project to generate a random password using useCallback, useEffect and useRef hooks.
 
@@ -131,3 +123,32 @@ The project create the password of the user choice length and features like incl
 
 
 ![password with nums ans special character and copird to clipboard](<Screenshot 2025-02-19 at 4.59.19 PM.png>)
+
+
+## Lecture 5: Custom Hooks
+
+Custom hooks are functions that contain hooks and can be reused in multiple components.
+
+## Currency Converter Project using Custom Hooks
+
+Understood the concept of custom hooks by creating a currency converter project using custom hooks(useCurrencyInfo).
+
+This hook contains the logic to fetch the currency data from the API and return the data to the component.
+
+Here, I also created a component (InputBox) that contains the input field and the select dropdown for the currency.
+Components make the code more readable and reusable.
+
+![currency convertor](<Screenshot 2025-02-26 at 2.47.35 PM.png>)
+
+This can input the amount in the first input box and select the currency from the dropdown and the converted amount will be displayed in the second input box. The second input box is disabled and the value is displayed in it.
+
+![drop down](<Screenshot 2025-02-26 at 2.47.54 PM.png>)
+
+output after conversion
+
+![alt text](<Screenshot 2025-02-26 at 2.48.08 PM.png>)
+
+The swap option in the middle is used to swap the currencies. The value in the first input box is swapped with the value in the second input box.
+
+![swap](<Screenshot 2025-02-26 at 2.48.19 PM.png>)
+

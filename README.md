@@ -83,15 +83,15 @@ const [state, setState] = useState(initialState);
 
 Created a basic project to change the background color of the page using useState hook.
 
-![image](<Screenshot 2025-02-19 at 10.29.48 AM.png>)
+![image](<readme images/Screenshot 2025-02-19 at 10.29.48 AM.png>)
 
 
 On clicking the button, the background color changes to a selected color.
 
 
-![image](<Screenshot 2025-02-19 at 10.30.13 AM.png>)
+![image](<readme images/Screenshot 2025-02-19 at 10.30.13 AM.png>)
 
-![image](<Screenshot 2025-02-19 at 10.30.28 AM.png>)
+![image](<readme images/Screenshot 2025-02-19 at 10.30.28 AM.png>)
 
 
 ## Lecture 4:useCallback, useEffect , useRef  Hooks
@@ -119,10 +119,10 @@ Created a basic project to generate a random password using useCallback, useEffe
 
 The project create the password of the user choice length and features like including numbers and special characters.It can also copy the password to the clipboard.
 
-![password without nums and special characters](<Screenshot 2025-02-19 at 4.58.42 PM.png>)
+![password without nums and special characters](<readme images/Screenshot 2025-02-19 at 4.58.42 PM.png>)
 
 
-![password with nums ans special character and copird to clipboard](<Screenshot 2025-02-19 at 4.59.19 PM.png>)
+![password with nums ans special character and copird to clipboard](<readme images/Screenshot 2025-02-19 at 4.59.19 PM.png>)
 
 
 ## Lecture 5: Custom Hooks
@@ -138,17 +138,17 @@ This hook contains the logic to fetch the currency data from the API and return 
 Here, I also created a component (InputBox) that contains the input field and the select dropdown for the currency.
 Components make the code more readable and reusable.
 
-![currency convertor](<Screenshot 2025-02-26 at 2.47.35 PM.png>)
+![currency convertor](<readme images/Screenshot 2025-02-26 at 2.47.35 PM.png>)
 
 This can input the amount in the first input box and select the currency from the dropdown and the converted amount will be displayed in the second input box. The second input box is disabled and the value is displayed in it.
 
-![drop down](<Screenshot 2025-02-26 at 2.47.54 PM.png>)
+![drop down](<readme images/Screenshot 2025-02-26 at 2.47.54 PM.png>)
 
 output after conversion
 
-![alt text](<Screenshot 2025-02-26 at 2.48.08 PM.png>)
+![alt text](<readme images/Screenshot 2025-02-26 at 2.48.08 PM.png>)
 
 The swap option in the middle is used to swap the currencies. The value in the first input box is swapped with the value in the second input box.
 
-![swap](<Screenshot 2025-02-26 at 2.48.19 PM.png>)
+![swap](<readme images/Screenshot 2025-02-26 at 2.48.19 PM.png>)
 

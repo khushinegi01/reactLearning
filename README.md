@@ -152,3 +152,40 @@ The swap option in the middle is used to swap the currencies. The value in the f
 
 ![swap](<readme images/Screenshot 2025-02-26 at 2.48.19 PM.png>)
 
+## Understanding React Routers
+
+React Router is a tool (or library) used in React applications to handle navigation (i.e., moving between different pages or views in the app). In a regular website, when you click on a link, the whole page reloads. But in a Single Page Application (SPA), the page doesn't reload. Instead, the content changes dynamically while staying on the same page.
+
+So, React Router helps us navigate between different sections (or pages) of a React app without refreshing the entire page.
+
+Here the website is created with the help of react-router-dom.
+
+![project on reactRouter](<readme images/Screenshot 2025-03-09 at 11.31.19 AM.png>)
+
+the syntax to create the react router is :
+
+```
+const router = createBrowserRouter([{
+    path: '/',
+    element: <Layout/>,
+    children :[ 
+                {path:""},{elment : <Home/>}, 
+                {path:"about" ,element : <About/>}]
+}])
+
+```
+![alt text](<readme images/Screenshot 2025-03-09 at 11.31.57 AM.png>)
+
+Layout file is used to fixed the layout of the page which reduces the need to include header and footer in every page.
+
+This help to structure the page with 
+            
+            <Header/>   
+            <Outlet/>
+            <Footer/>
+
+Outlet tool provided by the react-router-dom helps to dynamically allocate components.
+
+The github page in the project , fetch the API of gituser and provide username and avatar img
+
+![alt text](<readme images/Screenshot 2025-03-09 at 11.32.59 AM.png>)

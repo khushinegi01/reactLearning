@@ -224,3 +224,14 @@ function UserContextProvider({children}) {
 
 ```
 This UserContextProvider helps in the access the component without sending unnessaccery data to the other components and syncing the data.
+
+
+# context api project : Theme Switcher
+
+On the of button the theme of the card toggles
+
+## LightMode:
+![light mode](<readme images/Screenshot 2025-03-11 at 7.56.40 PM.png>)
+
+## DarkMode:
+![dark mode](<readme images/Screenshot 2025-03-11 at 7.56.52 PM.png>)

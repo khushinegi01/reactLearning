@@ -152,7 +152,7 @@ The swap option in the middle is used to swap the currencies. The value in the f
 
 ![swap](<readme images/Screenshot 2025-02-26 at 2.48.19 PM.png>)
 
-## Understanding React Routers
+## Lecture 6 : Understanding React Routers
 
 React Router is a tool (or library) used in React applications to handle navigation (i.e., moving between different pages or views in the app). In a regular website, when you click on a link, the whole page reloads. But in a Single Page Application (SPA), the page doesn't reload. Instead, the content changes dynamically while staying on the same page.
 
@@ -189,3 +189,38 @@ Outlet tool provided by the react-router-dom helps to dynamically allocate compo
 The github page in the project , fetch the API of gituser and provide username and avatar img
 
 ![alt text](<readme images/Screenshot 2025-03-09 at 11.32.59 AM.png>)
+
+
+## Lecture 7 : Context APIs
+
+# useContext
+
+useContext is a React Hook that lets you read and subscribe to context from your component.
+
+Usage:
+1. Passing data deeply into the tree.
+2. Updating data passed via context.
+3. Specifying a fallback default value.
+4. Overriding context for a part of the tree.
+5. Optimizing re-renders when passing objects and functions.
+
+To use the context APIs, we use createContext() provided by react.
+
+```
+const UserContext = createContext()
+
+```
+A Provider is needed to use this UserContext
+
+```
+function UserContextProvider({children}) {
+    const [user ,setUser] = useState(null)
+    return (
+        <UserContext value={{user,setUser}}>
+            {children}
+        </UserContext>
+    )
+}
+
+```
+This UserContextProvider helps in the access the component without sending unnessaccery data to the other components and syncing the data.

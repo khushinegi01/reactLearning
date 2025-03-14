@@ -235,3 +235,20 @@ On the of button the theme of the card toggles
 
 ## DarkMode:
 ![dark mode](<readme images/Screenshot 2025-03-11 at 7.56.52 PM.png>)
+
+
+## Lecture 8 : Redux Toolkit
+
+Redux Toolkit is the official, opinionated, batteries-included toolset for efficient Redux development. It is intended to be the standard way to write Redux logic.
+
+Redux Toolkit includes utilities to simplify common use cases like store setup, creating reducers, immutable update logic, and more.
+
+# Redux Toolkit Project : Todo 
+
+A basic todo project is created using Redux Toolkit.Understanding the concepts like store, action ,reducers, useDispatch and useSelector.
+
+![todo app](<readme images/Screenshot 2025-03-14 at 5.25.26 PM.png>)
+
+also installed redux chrome extension to see the state of the app.
+
+![chrome access to redux extension](<readme images/Screenshot 2025-03-14 at 5.37.28 PM.png>)

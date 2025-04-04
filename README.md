@@ -93,6 +93,14 @@ On clicking the button, the background color changes to a selected color.
 
 ![image](<readme images/Screenshot 2025-02-19 at 10.30.28 AM.png>)
 
+### Video demo
+
+
+
+https://github.com/user-attachments/assets/f279b151-c956-43d8-aee2-a35258c42bfc
+
+
+
 
 ## Lecture 4:useCallback, useEffect , useRef  Hooks
 
@@ -125,6 +133,14 @@ The project create the password of the user choice length and features like incl
 ![password with nums ans special character and copird to clipboard](<readme images/Screenshot 2025-02-19 at 4.59.19 PM.png>)
 
 
+### Video Demo
+
+
+
+https://github.com/user-attachments/assets/1e8afc20-c0ec-4e3b-a118-f03ec20e6b04
+
+
+
 ## Lecture 5: Custom Hooks
 
 Custom hooks are functions that contain hooks and can be reused in multiple components.
@@ -151,6 +167,16 @@ output after conversion
 The swap option in the middle is used to swap the currencies. The value in the first input box is swapped with the value in the second input box.
 
 ![swap](<readme images/Screenshot 2025-02-26 at 2.48.19 PM.png>)
+
+
+### Demo Video
+
+
+
+https://github.com/user-attachments/assets/94039d04-5e8f-4a50-aea6-20df2ccc5852
+
+
+
 
 ## Lecture 6 : Understanding React Routers
 
@@ -252,3 +278,10 @@ A basic todo project is created using Redux Toolkit.Understanding the concepts l
 also installed redux chrome extension to see the state of the app.
 
 ![chrome access to redux extension](<readme images/Screenshot 2025-03-14 at 5.37.28 PM.png>)
+
+## Demo Video
+
+
+https://github.com/user-attachments/assets/bbf82835-d832-40e6-93da-eb3b3aef119e
+
+
